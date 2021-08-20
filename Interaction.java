@@ -7,5 +7,7 @@ class Interaction {
     public Interaction (String remitente, Date fecha) {
         this.remitente = remitente;
         this.fecha = fecha;
+
+        \\
     }
 }
