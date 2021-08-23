@@ -1,5 +1,3 @@
-import java.util.Date;
-
 class User {
     private Integer id;
     private String name;

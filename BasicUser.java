@@ -1,5 +1,3 @@
-import java.util.Date;
-
 class Basicuser extends User {
     String membershipType;
     Integer devices;

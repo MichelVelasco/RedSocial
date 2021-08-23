@@ -1,5 +1,3 @@
-import java.util.Date;
-
 class Interaction {
     private String remitente;
     private  Integer fecha;
