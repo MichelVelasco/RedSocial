@@ -1,11 +1,11 @@
 public class Posting extends Interaction{
     String contentType;
-    Integer devices;
+    Integer filter;
 
-    public Posting (String remitente, Integer fecha, String ContentType, Integer devices) {
+    public Posting (String remitente, Integer fecha, String ContentType, Integer filter) {
         super(remitente, fecha);
         this.contentType = ContentType;
-        this.devices = devices;
+        this.filter = filter;
     }
     
 }
