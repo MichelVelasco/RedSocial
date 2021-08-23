@@ -1,8 +1,8 @@
 class Payment {
     private String name;
-    private Double accNum;
+    private Integer accNum;
 
-    public Payment (String name, Double accNum) {
+    public Payment (String name, Integer accNum) {
         this.name = name;
         this.accNum = accNum;
     }

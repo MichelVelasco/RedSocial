@@ -1,10 +1,10 @@
 class Premium extends User {
-    String mT;
+    String membershipType;
     String devices;
 
-    public Premium (Integer id, String name, String mT, String devices) {
+    public Premium (Integer id, String name, String membershipType, String devices) {
         super(id, name);
-        this.mT = mT;
+        this.membershipType = membershipType;
         this.devices = devices;
     }
 }

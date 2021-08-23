@@ -2,12 +2,10 @@ import java.util.Date;
 
 class Interaction {
     private String remitente;
-    private Date fecha;
+    private  Integer fecha;
 
-    public Interaction (String remitente, Date fecha) {
+    public Interaction (String remitente, Integer fecha) {
         this.remitente = remitente;
         this.fecha = fecha;
-
-        \\
     }
 }
