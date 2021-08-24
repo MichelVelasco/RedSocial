@@ -7,6 +7,10 @@ class User {
     public User (Integer id, String name) {
         this.id = id;
         this.name = name;
-        
+    }
+ 
+
+    public void printUser() {
+        System.out.println("ID: " + id + "\nName: " + name);
     }
 }
