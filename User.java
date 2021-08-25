@@ -38,7 +38,12 @@ class User {
     }
 
     public void setId(Integer id) {
-        this.id = id;
+       if (id > 1500) {
+           this.id = id;
+       } 
+       else { 
+            System.out.println("Invalid ID");
+       }
     }
 
     public void printUser() {
