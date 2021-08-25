@@ -6,4 +6,8 @@ class Payment {
         this.name = name;
         this.accNum = accNum;
     }
+
+    public void printPayment () {
+        System.out.println("Account Name: " + name + "\nAccount Number: " + accNum + "\n");
+    }
 }

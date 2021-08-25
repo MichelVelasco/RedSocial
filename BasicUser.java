@@ -11,6 +11,6 @@ class BasicUser extends User {
     
     public void printBasicUser(){
         super.printUser();
-        System.out.println("Membership Type: " + membershipType + "\nDevices allowed: " + devices);
+        System.out.println("Membership Type: " + membershipType + "\nDevices allowed: " + devices + "\n");
     }
 }

@@ -6,6 +6,10 @@ class Paypal extends Payment {
         this.correo = correo;
     }
 
+    public void printPaypal() {
+        super.printPayment();
+        System.out.println("Paypal email: " + correo);
+    }
 
 
     

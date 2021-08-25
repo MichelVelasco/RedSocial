@@ -7,6 +7,12 @@ public class Main {
         BasicUser freeUser;
         freeUser = new BasicUser(1989 , "Velasco", "Free", 1);
         freeUser.printBasicUser();
+
+        Paypal paypalUser = new Paypal("Michel", 19890321, "michel@paypal.com");
+        paypalUser.printPaypal();
+        
+
+
     }
 
 }
