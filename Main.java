@@ -10,7 +10,10 @@ public class Main {
 
         Paypal paypalUser = new Paypal("Michel", 19890321, "michel@paypal.com");
         paypalUser.printPaypal();
-        
+
+        Interaction publication = new Interaction("MichelVelasco", 21031989);
+        publication.printInteraction();
+
 
 
     }
