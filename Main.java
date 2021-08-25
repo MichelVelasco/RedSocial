@@ -5,11 +5,12 @@ public class Main {
         //usuario.printUser();
        
         BasicUser freeUser;
-        freeUser = new BasicUser(1989 , "Velasco", "Free", 2);
-        freeUser.setdevices(2);
+        freeUser = new BasicUser(1300,"Velasco", "Free");
+        freeUser.setDevices(2);
         freeUser.printBasicUser();
 
-        Premium premiumUser = new Premium(2121, "Gonzalez", "Premium", 2);
+        Premium premiumUser = new Premium(1400,"Gonzalez", "Premium");
+        premiumUser.setDevices(2);
         premiumUser.printPremiumUser();
 
         Paypal paypalUser = new Paypal("Michel", 19890321, "michel@paypal.com");

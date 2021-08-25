@@ -8,7 +8,7 @@ class Paypal extends Payment {
 
     public void printPaypal() {
         super.printPayment();
-        System.out.println("Paypal email: " + correo);
+        System.out.println("Paypal email: " + correo + "\n");
     }
 
 

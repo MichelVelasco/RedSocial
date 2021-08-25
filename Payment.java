@@ -8,6 +8,7 @@ class Payment {
     }
 
     public void printPayment () {
+        System.out.println("==PAYMENT INFO==");
         System.out.println("Account Name: " + name + "\nAccount Number: " + accNum + "\n");
     }
 }

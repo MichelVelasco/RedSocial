@@ -10,6 +10,7 @@ class Interaction {
     }
 
     public void printInteraction() {
+        System.out.println("=INTERACTION INFO=");
         System.out.println("Owner: " + remitente + "\nPublication Date: " + fecha + "\n");
     }
 }

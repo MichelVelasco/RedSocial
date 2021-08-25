@@ -5,8 +5,8 @@ class User {
     private String password;
 
     public User (Integer id, String name) {
-        this.setId(id);
-        this.setName(name);
+        this.setId(id); //indicamos que cuando se reciba un parametro en "id" debe pasar por la funcion setId
+        this.setName(name);//indicamos que cuando se reciba un parametro en "name" debe pasar por la funcion setname
     }
 
     public String getPassword() {
@@ -46,7 +46,9 @@ class User {
        }
     }
 
+    //Mostramos la informacion solo de User
     public void printUser() {
+        System.out.println("==USER INFO==");
         System.out.println("ID: " + id + "\nName: " + name);
     }
 
